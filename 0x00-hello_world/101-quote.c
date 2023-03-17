@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-    char my_title[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(1, my_title, 59);
-    return (1);
+	char my_title[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(1, my_title, 59);
+	return (1);
 }
