@@ -2,9 +2,6 @@
 
 /**
  * main - Entry point
- *
- * Description: print all aplhabet letters
- *
  * Return: Always 0 (Success)
 */
 
