@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point 
+ * print_alphabet - Entry point
  * Description - Print alphabet with new line at end
  * Return: Always 0( Success)
  */
