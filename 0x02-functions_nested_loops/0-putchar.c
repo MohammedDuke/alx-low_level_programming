@@ -8,12 +8,10 @@
 
 int main(void)
 {
-	char *ch = "_putchar";
+	char st[] = "_putchar";
 
-	while (*ch)
-
-		_putchar(*ch);
-		ch++;
+	for (i = 0; i < 8; i++)
+		_putchar(st[i]);
 
 	_putchar('\n');
 	return (0);
