@@ -1,13 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0(Success)
- */
+* main - Entry point
+* Description - Print _putcher with new line at end
+* Return: Always 0( Success)
+*/
 
 int main(void)
 {
-	printf("_putchar\n");
+	char *ch = "_putchar";
+
+	while (*ch)
+
+		_putchar(*ch);
+		ch++;
+
+	_putchar('\n');
 	return (0);
 }
+
