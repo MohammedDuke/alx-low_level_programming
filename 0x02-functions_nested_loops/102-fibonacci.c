@@ -21,7 +21,7 @@ int main(void)
 		c = a + b;
 		if (1 != 49)
 		{
-			printf(", ");
+			printf("%ld, ", c);
 		}
 	}
 
