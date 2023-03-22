@@ -17,10 +17,10 @@ int main(void)
 	{
 		if (a != 20365011074)
 		{
-			printf("%ld, ", j);
+			printf("%ld, ", a);
 		} else
 		{
-			printf("%ld\n", j);
+			printf("%ld\n", a);
 		}
 		next = j + k;
 		a = b;
