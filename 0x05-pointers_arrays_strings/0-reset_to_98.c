@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
-  * reset_to_98 reset value of n
-  * @n: int parameter
-  *
-  * return nothing
-  */
+ * reset_to_98 - take a pointer and
+ *	and update the value of pointer for 98
+ *
+ * @n: int parameter
+ *
+ * return nothing
+ */
 
 void reset_to_98(int *n)
 {
