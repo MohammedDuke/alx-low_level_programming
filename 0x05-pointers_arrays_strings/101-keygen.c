@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time>
+#include <time.h>
 
 /**
   * main - generate random number for 101-crackme
