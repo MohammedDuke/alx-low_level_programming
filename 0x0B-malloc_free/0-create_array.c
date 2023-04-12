@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * create_array - Main Entry
@@ -17,5 +18,5 @@ char *create_array(unsigned int size, char c)
 	while (size--)
 		n[size] = c;
 
-	return (n)
+	return (n);
 }
